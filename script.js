@@ -6,12 +6,13 @@ function getObject() {
       }, 4000);
     });
   }
-  
+
   function extractValue(obj) {
     return new Promise(resolve => {
       resolve(obj.age);
     });
   }
+  
   
   function createNewObject(value) {
     return new Promise(resolve => {
